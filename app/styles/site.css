@@ -1,0 +1,106 @@
+html, body {
+		    height: 100%;
+		}
+			body {
+			    margin:0;
+			    padding: 0;
+			    background-color: rgb(249,247,246);
+			    overflow-x:hidden;
+			}
+			.inline {
+				display: inline;
+				margin-left: 10px;
+				margin-right: 10px;
+				font-size: 18px; font-style: normal;
+			}
+
+			header {
+				background-color: white;
+				padding: 5px;
+			}
+
+			select{
+				border-radius: 8px 8px;
+				min-width: 125px;
+				width:210px;
+				height : 35px;
+				background-color: rgb(255,255,255);
+			}
+			.banniere {
+				display: inline-table;
+				vertical-align: middle;
+			}
+
+			ul{
+				list-style-type: none;
+				display: inline-table;
+				vertical-align: middle;
+				float: right;
+				margin-top: 3%;
+			}
+
+			li{
+				margin-right: 50px;
+				display: inline-table;
+				vertical-align: middle;
+			}
+
+			li a{				
+				display: block;
+				text-decoration: none;
+			}
+			li a:hover{				
+				display: block;
+				text-decoration: none;
+			}
+			.white{
+				color:white;
+			}
+			.navbar-default .navbar-nav>li>a {color:white}
+			.navbar-default .navbar-nav>li:hover {
+				background-color:rgb(41,130,198);
+
+			}
+			.navbar-default .navbar-nav>li {
+				padding: 0;
+				margin: 0;
+				
+			}
+
+			.nombre-annonce {			    
+			    font-size: 1.5em;
+			    font-weight: bold;
+			    color: #28c4e0;			    
+			    text-align: right;
+			}
+			.footer li{
+				padding: 0;
+				margin: 0;
+			}
+
+			.footer {
+				/*border:1px solid red; ;*/
+				color:rgb(255,155,55);
+			}
+			/*#footer {
+			   position:fixed;
+			   left:0px;
+			   bottom:0px;
+			   height:130px;
+			   width:100%;
+			} 
+			*/
+			.annonce{
+				/*background-image: url('/images/rib-exclusif.png');
+				background-position: top left;
+				background-repeat: no-repeat;
+				*/
+				z-index: 2;
+			}
+			.wrapper {
+			    min-height: 100%;
+			    height: auto !important;
+			    height: 100%;
+			    margin-top: -142px;
+			    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+			}
